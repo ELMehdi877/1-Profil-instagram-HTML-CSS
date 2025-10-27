@@ -45,11 +45,11 @@ header section .card {
 .image {
     width: 8rem;
     height: 8rem;
-    background:linear-gradient(rgb(136, 17, 88),rgb(208, 161, 43));
+    background:linear-gradient( rgb(136, 17, 88),rgb(208, 161, 43));
     transform: rotate(45deg);
     background-repeat: no-repeat;
     background-size: contain;
-    border-radius: 100%;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +58,7 @@ header section .card {
     transform: rotate(-45deg);
     width: 7rem;
     border: solid 4px white;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 .info h2 {
